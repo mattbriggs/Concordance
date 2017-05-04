@@ -1,0 +1,1 @@
+start pyinstaller.exe --onefile --icon=concord.ico concordance.py
