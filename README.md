@@ -1,7 +1,7 @@
 # Concordance
 Written in 2016 by Matt Briggs
 
-This program will count all of the words in the file and export a CSV named Indexof_<inputfilename>.csv. You can use this repo to create a command-line utility for the Mac and PC with Pyinstaller.
+This program will count all of the words in the file and export a CSV named Indexof_<inputfilename>.csv. You can use this repository to create a command-line utility for the Mac and PC with Pyinstaller.
 
 ## Operation of the application
 The command-line application will ask for a filename. It will take a text only file (UTF-8). The application will then parse the file and count each word. A word is defined by any string between spaces. The app will produce a comma delimited file (CSV) with the each string in alpha order and the count in the source file.
