@@ -28,10 +28,10 @@ class TagTerminal(cmd.Cmd):
             outname = outname + "_concord.csv"
             do = DF.dicttofile()
             do.save(indexedtext,outname)
-            print (indexedtext)
+            print(indexedtext)
             return
         except:
-            print ("There was an issue.")
+            print("There was an issue.")
             return
             
     def do_concord(self,line):
@@ -39,10 +39,10 @@ class TagTerminal(cmd.Cmd):
         try:
             concord = C.concordance()
             indexedtext = concord.count(line)
-            print (indexedtext)
+            print(indexedtext)
             return
         except:
-            print ("There was an issue.")
+            print("There was an issue.")
             return
             
     def do_concordandsave(self,line):
@@ -53,10 +53,10 @@ class TagTerminal(cmd.Cmd):
             outname = "concord.csv"
             do = DF.dicttofile()
             do.save(indexedtext,outname)
-            print (indexedtext)
+            print(indexedtext)
             return
         except:
-            print ("There was an issue.")
+            print("There was an issue.")
             return
 
     def do_quit(self, line):

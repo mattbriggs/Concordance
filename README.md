@@ -8,8 +8,8 @@ The command-line application will ask for a filename. It will take a text only f
 
 ## Application Set Up
 The application requires:
-Python 3+
-CMD (Lib/cmd.py) For more information see: https://docs.python.org/3.6/library/cmd.html
+ - Python 3+
+ - CMD (Lib/cmd.py) For more information see: https://docs.python.org/3.6/library/cmd.html
 
 **Optionally**: You can use Pyinstaller with the two stubbed out scripts to create command-line utilities for the Mac or PC. There is a small shell script for the PC (build.cmd) and a bash script for the Mac (Build.sh). Make sure both scripts point to the directory that contains these python files.
 
